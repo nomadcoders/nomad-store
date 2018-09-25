@@ -17,7 +17,7 @@ eCommerce PWA Built with NextJS and GraphCMS
 
 # NextJS Practice Project
 
-- [ ] Defining the Pages
+- [x] Defining the Pages
 - [ ] Custom App Component
 - [ ] Custom Document Component
 - [ ] Fetching Data with NextJS
