@@ -6,6 +6,7 @@
   "author": "Nicolás Serrano Arévalo <itnico.las.me@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "express": "^4.16.3",
     "next": "^7.0.0",
     "react": "^16.5.2",
