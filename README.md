@@ -11,8 +11,8 @@ eCommerce PWA Built with NextJS and GraphCMS
 - [x] Pages in NextJS
 - [x] Links and Navigation
 - [x] Shared Components
-- [ ] Dynamic Pages
-- [ ] Pretty URLs
+- [x] Dynamic Pages
+- [x] Pretty URLs
 - [ ] Styles on NextJS
 
 # NextJS Practice Project
