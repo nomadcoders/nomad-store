@@ -9,7 +9,7 @@ eCommerce PWA Built with NextJS and GraphCMS
 - [x] What is SSR and why do we need it
 - [x] Creating a NextJS App
 - [x] Pages in NextJS
-- [ ] Links and Navigation
+- [x] Links and Navigation
 - [ ] Shared Components
 - [ ] Dynamic Pages
 - [ ] Pretty URLs
