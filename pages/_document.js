@@ -15,6 +15,7 @@ export default class MyDocument extends Document {
             href="//cdnjs.cloudflare.com/ajax/libs/antd/3.8.1/antd.min.css"
             rel="stylesheet"
           />
+          <style>{`body { background-color: #EFF2F5!important}`}</style>
         </Head>
         <body>
           <Main />
