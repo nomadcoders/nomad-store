@@ -21,8 +21,9 @@ export default ({ data, toggleCart }) => (
         <h3>{data.product.detail}</h3>
         <h4>{data.product.description}</h4>
         <AntButton type="primary" onClick={toggleCart}>
-          Add to cart($
-          {data.product.price})
+          {data.product.onCart
+            ? "Remove from cart"
+            : `Add to cart($${data.product.price})`}
         </AntButton>
       </div>
       <style jsx>{`
