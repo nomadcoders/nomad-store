@@ -24,6 +24,28 @@ export default ({ data, updateSearchTerm, searchTerm }) => (
         placeholder={"Search by name"}
         value={searchTerm}
       />
+      <div
+        style={{
+          display: "grid",
+          gridGap: "10px",
+          gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))",
+          width: "100%",
+          margin: "50px 0px"
+        }}
+      >
+        {data &&
+          data.products &&
+          data.products.map(product => (
+            <ProductCard
+              key={product.id}
+              id={product.id}
+              name={product.name}
+              subtitle={product.detail}
+              price={product.price}
+              photoUrl={product.photo.url}
+            />
+          ))}
+      </div>
     </Content>
   </>
 );
