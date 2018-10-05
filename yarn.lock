@@ -3678,6 +3678,13 @@ neo-async@^2.5.0:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.2.tgz#489105ce7bc54e709d736b195f82135048c50fcc"
   integrity sha512-vdqTKI9GBIYcAEbFAcpKPErKINfPF5zIuz3/niBfq8WUZjpT2tytLlFVrBgWdOtqI4uaA/Rb6No0hux39XXDuw==
 
+next-nprogress@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/next-nprogress/-/next-nprogress-1.1.0.tgz#149898d411adff795f9bebd1faa7a9b1db63bddd"
+  integrity sha512-PYOkdttaZBPk1Z7q11cElfSXtdMKbLlL9ZEYc2+vYAWY4GxMn5GF+KNKgKIPSDqfvbXJXYDI/HtOhrIGo/jBrQ==
+  dependencies:
+    nprogress "^0.2.0"
+
 next-with-apollo@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/next-with-apollo/-/next-with-apollo-3.2.0.tgz#aa9c37ab30858dbf1dae9accc1381c83a5e5a60f"
@@ -3872,6 +3879,11 @@ npmlog@^4.0.2:
     console-control-strings "~1.1.0"
     gauge "~2.7.3"
     set-blocking "~2.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 number-is-nan@^1.0.0:
   version "1.0.1"
