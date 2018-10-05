@@ -3,6 +3,7 @@ import Header from "../../components/Header";
 import Button from "../../components/Button";
 import { Layout, Row } from "antd";
 import ProductCard from "../../components/ProductCard";
+import CartButton from "../../components/CartButton";
 const { Content } = Layout;
 
 export default ({ data }) => (
@@ -12,7 +13,7 @@ export default ({ data }) => (
     </Head>
     <Header
       centerColumn={<h4>Nomad Store</h4>}
-      rightColumn={<Button href="/cart" text="Cart" />}
+      rightColumn={<CartButton />}
       leftColumn={<Button href="/search" text="Search" />}
     />
     <Content style={{ padding: "0 50px" }}>
