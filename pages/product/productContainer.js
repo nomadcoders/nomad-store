@@ -1,7 +1,7 @@
-import { Query } from "react-apollo";
+import { Query, Mutation } from "react-apollo";
 import { withRouter } from "next/router";
 import ProductPresenter from "./productPresenter";
-import { PRODUCT_QUERY } from "./productQueries";
+import { PRODUCT_QUERY, TOGGLE_CART } from "./productQueries";
 
 class ProductContainer extends React.Component {
   static async getInitialProps(props) {
@@ -16,7 +16,13 @@ class ProductContainer extends React.Component {
     const { id } = this.props;
     return (
       <Query query={PRODUCT_QUERY} variables={{ id }}>
-        {({ data }) => <ProductPresenter data={data} />}
+        {({ data }) => (
+          <Mutation mutation={TOGGLE_CART} variables={{ id }}>
+            {toggleCart => (
+              <ProductPresenter data={data} toggleCart={toggleCart} />
+            )}
+          </Mutation>
+        )}
       </Query>
     );
   }

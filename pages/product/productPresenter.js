@@ -3,7 +3,7 @@ import { Button as AntButton } from "antd";
 import Header from "../../components/Header";
 import Button from "../../components/Button";
 
-export default ({ data }) => (
+export default ({ data, toggleCart }) => (
   <>
     <Head>
       <title>{data.product.name} | Nomad Store</title>
@@ -19,7 +19,7 @@ export default ({ data }) => (
         <h2>{data.product.name}</h2>
         <h3>{data.product.detail}</h3>
         <h4>{data.product.description}</h4>
-        <AntButton type="primary">
+        <AntButton type="primary" onClick={toggleCart}>
           Add to cart($
           {data.product.price})
         </AntButton>

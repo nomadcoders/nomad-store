@@ -10,3 +10,9 @@ export const PRODUCT_QUERY = gql`
   }
   ${PRODUCT_FRAGMENT}
 `;
+
+export const TOGGLE_CART = gql`
+  mutation toggleCart($id: ID!) {
+    toggleProduct(id: $id) @client
+  }
+`;
