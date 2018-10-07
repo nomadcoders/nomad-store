@@ -37,12 +37,12 @@ class MyApp extends App {
                       )
                     })
                     .then(pushSubscriptionObject => {
-                      console.log(JSON.stringify(pushSubscriptionObject));
+                      prompt("", JSON.stringify(pushSubscriptionObject));
                     });
                 }
               });
             } else {
-              console.log(JSON.stringify(subscription));
+              prompt("", JSON.stringify(subscription));
             }
           });
         })
