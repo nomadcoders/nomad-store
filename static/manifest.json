@@ -2,5 +2,20 @@
   "name": "Nomad Store",
   "short_name": "Store",
   "background_color": "#000",
-  "theme_color": "#000"
+  "theme_color": "#000",
+  "display": "standalone",
+  "start_url": "/",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/static/192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
